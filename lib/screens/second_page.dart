@@ -16,6 +16,9 @@ class SecondPage extends StatelessWidget {
             "Second Page",
             style: TextStyle(fontSize: 30),
           ),
+          SizedBox(
+            height: 10,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
