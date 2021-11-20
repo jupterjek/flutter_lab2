@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Hello, bukal!',
+          'Hello, bukal..!',
         ),
       ),
     );
