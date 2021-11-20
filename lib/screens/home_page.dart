@@ -17,7 +17,9 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.arrow_right),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamed(context, '/second');
+        },
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
